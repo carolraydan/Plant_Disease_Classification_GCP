@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "my_project"
+version = "0.1.0"
+description = ""
+authors = ["Carol Raydan <carol.raydan@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11.11"
+ipython = "^8.31.0"
+tensorflow = "^2.18.0"
+matplotlib = "^3.10.0"
+pandas = "^2.2.3"
+uvicorn = "^0.34.0"
+fastapi = "^0.115.6"
+python-multipart = "^0.0.20"
+starlette = ">=0.40.0,<0.42.0"
+google-cloud-storage = "^2.8.0"  # added from requirements.txt
+Pillow = "^9.1.0"  # added from requirements.txt
+flask = "^2.1.2"  # added from requirements.txt
+numpy = "^1.24.1"  # added from requirements.txt
+python-dotenv = "^1.0.1"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
